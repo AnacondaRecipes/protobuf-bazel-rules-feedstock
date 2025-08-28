@@ -15,7 +15,7 @@ build:
   skip: True  # [not linux64]
 
 requirements:
-  run_constraints:
+  run_constrained:
     - protobuf {{ major_version }}.{{ version }}.*
     - libprotobuf {{ major_version }}.{{ version }}.*
 

@@ -1,5 +1,5 @@
-{% set version = "29.3" %}
-{% set major_version = "5" %}
+{% set version = "33.0" %}
+{% set major_version = "6" %}
 
 package:
   name: protobuf-bazel-rules
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://github.com/protocolbuffers/protobuf/releases/download/v{{ version }}/protobuf-{{ version }}.tar.gz
-    sha256: 008a11cc56f9b96679b4c285fd05f46d317d685be3ab524b2a310be0fbad987e
+    sha256: cbc536064706b628dcfe507bef386ef3e2214d563657612296f1781aa155ee07
 
 build:
   number: 0

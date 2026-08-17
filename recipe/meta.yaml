@@ -10,7 +10,7 @@ source:
     sha256: f0b6838e7522a8da96126d487068c959bc624926368f3024ac8fd03abd0a1ac4
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   run_constrained:
@@ -20,6 +20,7 @@ requirements:
 test:
   commands:
     - test -f ${PREFIX}/share/bazel/protobuf/bazel/cc_proto_library.bzl  # [unix]
+    - test -f ${PREFIX}/share/bazel/upb/bazel/upb_c_proto_library.bzl  # [unix]
 
 about:
   home: https://developers.google.com/protocol-buffers
